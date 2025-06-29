@@ -16,42 +16,6 @@ The notebook explores hotel booking records, property details, room categories, 
 
 ---
 
-## 🗂️ Data Sources
-
-The analysis uses several structured tables, including:
-
-### Bookings
-- `booking_id`
-- `property_id`
-- `booking_date`
-- `check_in_date`
-- `checkout_date`
-- `no_guests`
-- `room_category`
-- `booking_platform`
-- `ratings_given`
-- `booking_status`
-- `revenue_generated`
-- `revenue_realized`
-
-### Properties
-- `property_id`
-- `property_name`
-- `category` (Luxury/Business)
-- `city`
-
-### Room Capacity
-- `property_id`
-- `check_in_date`
-- `room_category`
-- `successful_bookings`
-- `capacity`
-
-### Calendar
-- Maps dates to month, week number, and day type (weekend/weekday)
-
----
-
 ## 🔍 Key Features
 
 - **Data Cleaning**  
